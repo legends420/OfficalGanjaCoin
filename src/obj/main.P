@@ -1,0 +1,50 @@
+obj/main.o: main.cpp alert.h uint256.h util.h netbase.h serialize.h \
+ allocators.h version.h clientversion.h compat.h checkpoints.h net.h \
+ mruset.h protocol.h addrman.h sync.h threadsafety.h db.h main.h bignum.h \
+ script.h keystore.h crypter.h key.h scrypt.h \
+ /home/alex/ganjacoin/src/obj/zerocoin/Zerocoin.h \
+ /home/alex/ganjacoin/src/obj/zerocoin/../../serialize.h \
+ /home/alex/ganjacoin/src/obj/zerocoin/../../bignum.h \
+ /home/alex/ganjacoin/src/obj/zerocoin/../../util.h \
+ /home/alex/ganjacoin/src/obj/zerocoin/Params.h \
+ /home/alex/ganjacoin/src/obj/zerocoin/Coin.h \
+ /home/alex/ganjacoin/src/obj/zerocoin/Commitment.h \
+ /home/alex/ganjacoin/src/obj/zerocoin/Accumulator.h \
+ /home/alex/ganjacoin/src/obj/zerocoin/AccumulatorProofOfKnowledge.h \
+ /home/alex/ganjacoin/src/obj/zerocoin/CoinSpend.h \
+ /home/alex/ganjacoin/src/obj/zerocoin/SerialNumberSignatureOfKnowledge.h \
+ /home/alex/ganjacoin/src/obj/zerocoin/SpendMetaData.h \
+ /home/alex/ganjacoin/src/obj/zerocoin/../../uint256.h \
+ /home/alex/ganjacoin/src/obj/zerocoin/ParamGeneration.h txdb.h \
+ txdb-leveldb.h /home/alex/ganjacoin/src/leveldb/include/leveldb/db.h \
+ /home/alex/ganjacoin/src/leveldb/include/leveldb/iterator.h \
+ /home/alex/ganjacoin/src/leveldb/include/leveldb/slice.h \
+ /home/alex/ganjacoin/src/leveldb/include/leveldb/status.h \
+ /home/alex/ganjacoin/src/leveldb/include/leveldb/options.h \
+ /home/alex/ganjacoin/src/leveldb/include/leveldb/write_batch.h init.h \
+ wallet.h ui_interface.h walletdb.h base58.h kernel.h
+main.cpp alert.h uint256.h util.h netbase.h serialize.h :
+ allocators.h version.h clientversion.h compat.h checkpoints.h net.h :
+ mruset.h protocol.h addrman.h sync.h threadsafety.h db.h main.h bignum.h :
+ script.h keystore.h crypter.h key.h scrypt.h :
+ /home/alex/ganjacoin/src/obj/zerocoin/Zerocoin.h :
+ /home/alex/ganjacoin/src/obj/zerocoin/../../serialize.h :
+ /home/alex/ganjacoin/src/obj/zerocoin/../../bignum.h :
+ /home/alex/ganjacoin/src/obj/zerocoin/../../util.h :
+ /home/alex/ganjacoin/src/obj/zerocoin/Params.h :
+ /home/alex/ganjacoin/src/obj/zerocoin/Coin.h :
+ /home/alex/ganjacoin/src/obj/zerocoin/Commitment.h :
+ /home/alex/ganjacoin/src/obj/zerocoin/Accumulator.h :
+ /home/alex/ganjacoin/src/obj/zerocoin/AccumulatorProofOfKnowledge.h :
+ /home/alex/ganjacoin/src/obj/zerocoin/CoinSpend.h :
+ /home/alex/ganjacoin/src/obj/zerocoin/SerialNumberSignatureOfKnowledge.h :
+ /home/alex/ganjacoin/src/obj/zerocoin/SpendMetaData.h :
+ /home/alex/ganjacoin/src/obj/zerocoin/../../uint256.h :
+ /home/alex/ganjacoin/src/obj/zerocoin/ParamGeneration.h txdb.h :
+ txdb-leveldb.h /home/alex/ganjacoin/src/leveldb/include/leveldb/db.h :
+ /home/alex/ganjacoin/src/leveldb/include/leveldb/iterator.h :
+ /home/alex/ganjacoin/src/leveldb/include/leveldb/slice.h :
+ /home/alex/ganjacoin/src/leveldb/include/leveldb/status.h :
+ /home/alex/ganjacoin/src/leveldb/include/leveldb/options.h :
+ /home/alex/ganjacoin/src/leveldb/include/leveldb/write_batch.h init.h :
+ wallet.h ui_interface.h walletdb.h base58.h kernel.h :
