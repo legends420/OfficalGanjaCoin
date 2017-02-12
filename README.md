@@ -34,24 +34,24 @@ head over to c:\users\YOURUSERNAME\Appdata\Roaming\Ganjacoin\ganjacoin.conf (Thi
 ganjacoin.conf settings
 <br><br>
 
-rpcuser=rpc_user 
-rpcpassword=d86f11ed10af81418949ca8a6
-rpcallowip=127.0.0.1
-rpcport=10480
-listen=1
-server=1
+rpcuser=rpc_user <br>
+rpcpassword=d86f11ed10af81418949ca8a6<br>
+rpcallowip=127.0.0.1<br>
+rpcport=10480<br>
+listen=1<br>
+server=1<br>
 addnode=169.54.3.62
 <br><br>
-change 
-rpcuser to whatever you want 
-rpcpassword to whatever you want
+change <br>
+rpcuser to whatever you want <br>
+rpcpassword to whatever you want<br>
  <br><br>
- leave everything else click file save as 
- make sure it is a .conf file and not .conf.txt
+ leave everything else click file save as <br>
+ make sure it is a .conf file and not .conf.txt<br>
  <br>
 
 once done
-
+<br><br>
 3.open cpu miner folder and make your way over to mine.bat and edit it with your details
 save & close
 
