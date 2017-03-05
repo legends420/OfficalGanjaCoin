@@ -15,17 +15,9 @@ Target spacing 	64 seconds<br>
 Target timespan 	1 block<br>
 Transaction confirmations 	6 blocks<br>
 <br><br>
-Download Whole soruce to make things easier<br>
+Download Wallets from www.ganjacoinpro.com
 <br><br>
-extract folder to your desktop
-<br><br>
-now weither you have x32 bit or x64 bit <br>
-extract the files from <br>
-MINDERD (YOUR BIT) to cpuminer-2.4.5 <br>
-<br><br>
-now
-<br><br>
-Click Ganjacoin-pro.exe (wallet) it will update
+Click Ganjacoin-pro.exe (wallet) or open linux wallet it will update
 <br><br>
 head over to c:\users\YOURUSERNAME\Appdata\Roaming\Ganjacoin\ganjacoin.conf (This wont be there so just create the .conf file)
 <br><br>
@@ -40,11 +32,12 @@ rpcallowip=127.0.0.1<br>
 rpcport=10480<br>
 listen=1<br>
 server=1<br>
-addnode=169.54.3.62
+addnode=169.54.3.62 
 <br><br>
 change <br>
 rpcuser to whatever you want <br>
 rpcpassword to whatever you want<br>
+Make sure addnode=169.54.3.62 is there
  <br><br>
  leave everything else click file save as <br>
  make sure it is a .conf file and not .conf.txt<br>
@@ -52,21 +45,9 @@ rpcpassword to whatever you want<br>
 
 once done
 <br><br>
-3.open cpu miner folder and make your way over to mine.bat and edit it with your details
-save & close
+Leave your wallet open load it with a good amount of coins and they will start to stake :-)
 
-GanjaCoin available for mining.
- <br> <br>
-🔥 PICKAXE.ONLINE 🔥
- <br> <br>
-Redirect miner to
- <br> <br>
-./minerd --url=stratum+tcp://pickaxe.online:10001 -u WALLETADDRESS
- <br> <br>
-
- 
-make sure walet is open and click mine.bat 
- <br> <br>
+  <br> <br>
 ENJOY GANJACOINS
 
 
