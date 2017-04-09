@@ -19,8 +19,8 @@
 
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_BitcoinGUI_t {
-    QByteArrayData data[45];
-    char stringdata0[574];
+    QByteArrayData data[46];
+    char stringdata0[597];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -52,28 +52,29 @@ QT_MOC_LITERAL(19, 182, 15), // "gotoHistoryPage"
 QT_MOC_LITERAL(20, 198, 19), // "gotoAddressBookPage"
 QT_MOC_LITERAL(21, 218, 20), // "gotoReceiveCoinsPage"
 QT_MOC_LITERAL(22, 239, 17), // "gotoSendCoinsPage"
-QT_MOC_LITERAL(23, 257, 18), // "gotoSignMessageTab"
-QT_MOC_LITERAL(24, 276, 4), // "addr"
-QT_MOC_LITERAL(25, 281, 20), // "gotoVerifyMessageTab"
-QT_MOC_LITERAL(26, 302, 14), // "optionsClicked"
-QT_MOC_LITERAL(27, 317, 12), // "aboutClicked"
-QT_MOC_LITERAL(28, 330, 17), // "trayIconActivated"
-QT_MOC_LITERAL(29, 348, 33), // "QSystemTrayIcon::ActivationRe..."
-QT_MOC_LITERAL(30, 382, 6), // "reason"
-QT_MOC_LITERAL(31, 389, 19), // "incomingTransaction"
-QT_MOC_LITERAL(32, 409, 6), // "parent"
-QT_MOC_LITERAL(33, 416, 5), // "start"
-QT_MOC_LITERAL(34, 422, 3), // "end"
-QT_MOC_LITERAL(35, 426, 13), // "encryptWallet"
-QT_MOC_LITERAL(36, 440, 12), // "backupWallet"
-QT_MOC_LITERAL(37, 453, 16), // "changePassphrase"
-QT_MOC_LITERAL(38, 470, 12), // "unlockWallet"
-QT_MOC_LITERAL(39, 483, 10), // "lockWallet"
-QT_MOC_LITERAL(40, 494, 21), // "showNormalIfMinimized"
-QT_MOC_LITERAL(41, 516, 13), // "fToggleHidden"
-QT_MOC_LITERAL(42, 530, 12), // "toggleHidden"
-QT_MOC_LITERAL(43, 543, 12), // "updateWeight"
-QT_MOC_LITERAL(44, 556, 17) // "updateStakingIcon"
+QT_MOC_LITERAL(23, 257, 22), // "gotoInformationBoxPage"
+QT_MOC_LITERAL(24, 280, 18), // "gotoSignMessageTab"
+QT_MOC_LITERAL(25, 299, 4), // "addr"
+QT_MOC_LITERAL(26, 304, 20), // "gotoVerifyMessageTab"
+QT_MOC_LITERAL(27, 325, 14), // "optionsClicked"
+QT_MOC_LITERAL(28, 340, 12), // "aboutClicked"
+QT_MOC_LITERAL(29, 353, 17), // "trayIconActivated"
+QT_MOC_LITERAL(30, 371, 33), // "QSystemTrayIcon::ActivationRe..."
+QT_MOC_LITERAL(31, 405, 6), // "reason"
+QT_MOC_LITERAL(32, 412, 19), // "incomingTransaction"
+QT_MOC_LITERAL(33, 432, 6), // "parent"
+QT_MOC_LITERAL(34, 439, 5), // "start"
+QT_MOC_LITERAL(35, 445, 3), // "end"
+QT_MOC_LITERAL(36, 449, 13), // "encryptWallet"
+QT_MOC_LITERAL(37, 463, 12), // "backupWallet"
+QT_MOC_LITERAL(38, 476, 16), // "changePassphrase"
+QT_MOC_LITERAL(39, 493, 12), // "unlockWallet"
+QT_MOC_LITERAL(40, 506, 10), // "lockWallet"
+QT_MOC_LITERAL(41, 517, 21), // "showNormalIfMinimized"
+QT_MOC_LITERAL(42, 539, 13), // "fToggleHidden"
+QT_MOC_LITERAL(43, 553, 12), // "toggleHidden"
+QT_MOC_LITERAL(44, 566, 12), // "updateWeight"
+QT_MOC_LITERAL(45, 579, 17) // "updateStakingIcon"
 
     },
     "BitcoinGUI\0setNumConnections\0\0count\0"
@@ -83,9 +84,10 @@ QT_MOC_LITERAL(44, 556, 17) // "updateStakingIcon"
     "handleURI\0strURI\0gotoOverviewPage\0"
     "gotoHistoryPage\0gotoAddressBookPage\0"
     "gotoReceiveCoinsPage\0gotoSendCoinsPage\0"
-    "gotoSignMessageTab\0addr\0gotoVerifyMessageTab\0"
-    "optionsClicked\0aboutClicked\0"
-    "trayIconActivated\0QSystemTrayIcon::ActivationReason\0"
+    "gotoInformationBoxPage\0gotoSignMessageTab\0"
+    "addr\0gotoVerifyMessageTab\0optionsClicked\0"
+    "aboutClicked\0trayIconActivated\0"
+    "QSystemTrayIcon::ActivationReason\0"
     "reason\0incomingTransaction\0parent\0"
     "start\0end\0encryptWallet\0backupWallet\0"
     "changePassphrase\0unlockWallet\0lockWallet\0"
@@ -100,7 +102,7 @@ static const uint qt_meta_data_BitcoinGUI[] = {
        7,       // revision
        0,       // classname
        0,    0, // classinfo
-      29,   14, // methods
+      30,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -108,35 +110,36 @@ static const uint qt_meta_data_BitcoinGUI[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    1,  159,    2, 0x0a /* Public */,
-       4,    2,  162,    2, 0x0a /* Public */,
-       6,    1,  167,    2, 0x0a /* Public */,
-       8,    3,  170,    2, 0x0a /* Public */,
-      12,    2,  177,    2, 0x0a /* Public */,
-      16,    1,  182,    2, 0x0a /* Public */,
-      18,    0,  185,    2, 0x08 /* Private */,
-      19,    0,  186,    2, 0x08 /* Private */,
-      20,    0,  187,    2, 0x08 /* Private */,
-      21,    0,  188,    2, 0x08 /* Private */,
-      22,    0,  189,    2, 0x08 /* Private */,
-      23,    1,  190,    2, 0x08 /* Private */,
-      23,    0,  193,    2, 0x28 /* Private | MethodCloned */,
-      25,    1,  194,    2, 0x08 /* Private */,
-      25,    0,  197,    2, 0x28 /* Private | MethodCloned */,
-      26,    0,  198,    2, 0x08 /* Private */,
-      27,    0,  199,    2, 0x08 /* Private */,
-      28,    1,  200,    2, 0x08 /* Private */,
-      31,    3,  203,    2, 0x08 /* Private */,
-      35,    1,  210,    2, 0x08 /* Private */,
-      36,    0,  213,    2, 0x08 /* Private */,
-      37,    0,  214,    2, 0x08 /* Private */,
-      38,    0,  215,    2, 0x08 /* Private */,
-      39,    0,  216,    2, 0x08 /* Private */,
-      40,    1,  217,    2, 0x08 /* Private */,
-      40,    0,  220,    2, 0x28 /* Private | MethodCloned */,
-      42,    0,  221,    2, 0x08 /* Private */,
-      43,    0,  222,    2, 0x08 /* Private */,
-      44,    0,  223,    2, 0x08 /* Private */,
+       1,    1,  164,    2, 0x0a /* Public */,
+       4,    2,  167,    2, 0x0a /* Public */,
+       6,    1,  172,    2, 0x0a /* Public */,
+       8,    3,  175,    2, 0x0a /* Public */,
+      12,    2,  182,    2, 0x0a /* Public */,
+      16,    1,  187,    2, 0x0a /* Public */,
+      18,    0,  190,    2, 0x08 /* Private */,
+      19,    0,  191,    2, 0x08 /* Private */,
+      20,    0,  192,    2, 0x08 /* Private */,
+      21,    0,  193,    2, 0x08 /* Private */,
+      22,    0,  194,    2, 0x08 /* Private */,
+      23,    0,  195,    2, 0x08 /* Private */,
+      24,    1,  196,    2, 0x08 /* Private */,
+      24,    0,  199,    2, 0x28 /* Private | MethodCloned */,
+      26,    1,  200,    2, 0x08 /* Private */,
+      26,    0,  203,    2, 0x28 /* Private | MethodCloned */,
+      27,    0,  204,    2, 0x08 /* Private */,
+      28,    0,  205,    2, 0x08 /* Private */,
+      29,    1,  206,    2, 0x08 /* Private */,
+      32,    3,  209,    2, 0x08 /* Private */,
+      36,    1,  216,    2, 0x08 /* Private */,
+      37,    0,  219,    2, 0x08 /* Private */,
+      38,    0,  220,    2, 0x08 /* Private */,
+      39,    0,  221,    2, 0x08 /* Private */,
+      40,    0,  222,    2, 0x08 /* Private */,
+      41,    1,  223,    2, 0x08 /* Private */,
+      41,    0,  226,    2, 0x28 /* Private | MethodCloned */,
+      43,    0,  227,    2, 0x08 /* Private */,
+      44,    0,  228,    2, 0x08 /* Private */,
+      45,    0,  229,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void, QMetaType::Int,    3,
@@ -150,20 +153,21 @@ static const uint qt_meta_data_BitcoinGUI[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QString,   24,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QString,   24,
+    QMetaType::Void, QMetaType::QString,   25,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,   25,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, 0x80000000 | 29,   30,
-    QMetaType::Void, QMetaType::QModelIndex, QMetaType::Int, QMetaType::Int,   32,   33,   34,
+    QMetaType::Void, 0x80000000 | 30,   31,
+    QMetaType::Void, QMetaType::QModelIndex, QMetaType::Int, QMetaType::Int,   33,   34,   35,
     QMetaType::Void, QMetaType::Bool,    7,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::Bool,   41,
+    QMetaType::Void, QMetaType::Bool,   42,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -189,24 +193,25 @@ void BitcoinGUI::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 8: _t->gotoAddressBookPage(); break;
         case 9: _t->gotoReceiveCoinsPage(); break;
         case 10: _t->gotoSendCoinsPage(); break;
-        case 11: _t->gotoSignMessageTab((*reinterpret_cast< QString(*)>(_a[1]))); break;
-        case 12: _t->gotoSignMessageTab(); break;
-        case 13: _t->gotoVerifyMessageTab((*reinterpret_cast< QString(*)>(_a[1]))); break;
-        case 14: _t->gotoVerifyMessageTab(); break;
-        case 15: _t->optionsClicked(); break;
-        case 16: _t->aboutClicked(); break;
-        case 17: _t->trayIconActivated((*reinterpret_cast< QSystemTrayIcon::ActivationReason(*)>(_a[1]))); break;
-        case 18: _t->incomingTransaction((*reinterpret_cast< const QModelIndex(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3]))); break;
-        case 19: _t->encryptWallet((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 20: _t->backupWallet(); break;
-        case 21: _t->changePassphrase(); break;
-        case 22: _t->unlockWallet(); break;
-        case 23: _t->lockWallet(); break;
-        case 24: _t->showNormalIfMinimized((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 25: _t->showNormalIfMinimized(); break;
-        case 26: _t->toggleHidden(); break;
-        case 27: _t->updateWeight(); break;
-        case 28: _t->updateStakingIcon(); break;
+        case 11: _t->gotoInformationBoxPage(); break;
+        case 12: _t->gotoSignMessageTab((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 13: _t->gotoSignMessageTab(); break;
+        case 14: _t->gotoVerifyMessageTab((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 15: _t->gotoVerifyMessageTab(); break;
+        case 16: _t->optionsClicked(); break;
+        case 17: _t->aboutClicked(); break;
+        case 18: _t->trayIconActivated((*reinterpret_cast< QSystemTrayIcon::ActivationReason(*)>(_a[1]))); break;
+        case 19: _t->incomingTransaction((*reinterpret_cast< const QModelIndex(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3]))); break;
+        case 20: _t->encryptWallet((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 21: _t->backupWallet(); break;
+        case 22: _t->changePassphrase(); break;
+        case 23: _t->unlockWallet(); break;
+        case 24: _t->lockWallet(); break;
+        case 25: _t->showNormalIfMinimized((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 26: _t->showNormalIfMinimized(); break;
+        case 27: _t->toggleHidden(); break;
+        case 28: _t->updateWeight(); break;
+        case 29: _t->updateStakingIcon(); break;
         default: ;
         }
     }
@@ -237,13 +242,13 @@ int BitcoinGUI::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 29)
+        if (_id < 30)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 29;
+        _id -= 30;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 29)
+        if (_id < 30)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 29;
+        _id -= 30;
     }
     return _id;
 }

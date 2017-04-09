@@ -8,6 +8,8 @@
 #include "transactionfilterproxy.h"
 #include "guiutil.h"
 #include "guiconstants.h"
+#include <QtWebKitWidgets/QWebView>
+#include <QUrl>
 
 #include <QAbstractItemDelegate>
 #include <QPainter>
@@ -100,6 +102,8 @@ OverviewPage::OverviewPage(QWidget *parent) :
     filter(0)
 {
     ui->setupUi(this);
+    // load daily tips
+    ui->webView->load(QUrl("https://www.ganjacoinpro.com/walletupdates/dailytips.php"));
 
     // Recent transactions
     ui->listTransactions->setItemDelegate(txdelegate);
@@ -194,4 +198,10 @@ void OverviewPage::showOutOfSyncWarning(bool fShow)
 {
     ui->labelWalletStatus->setVisible(fShow);
     ui->labelTransactionsStatus->setVisible(fShow);
+}
+
+
+void OverviewPage::on_webView_loadStarted()
+{
+
 }

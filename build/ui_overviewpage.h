@@ -10,11 +10,13 @@
 #define UI_OVERVIEWPAGE_H
 
 #include <QtCore/QVariant>
+#include <QtWebKitWidgets/QWebView>
 #include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QFormLayout>
 #include <QtWidgets/QFrame>
+#include <QtWidgets/QGroupBox>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
@@ -48,6 +50,18 @@ public:
     QFrame *line;
     QLabel *labelTotalText;
     QLabel *labelTotal;
+    QGroupBox *groupBox;
+    QHBoxLayout *horizontalLayout_5;
+    QHBoxLayout *horizontalLayout_3;
+    QLabel *label_7;
+    QLabel *label_2;
+    QSpacerItem *verticalSpacer_3;
+    QGroupBox *groupBox_2;
+    QHBoxLayout *horizontalLayout_6;
+    QWebView *webView;
+    QSpacerItem *horizontalSpacer_5;
+    QSpacerItem *horizontalSpacer_4;
+    QSpacerItem *horizontalSpacer_3;
     QSpacerItem *verticalSpacer;
     QVBoxLayout *verticalLayout_3;
     QFrame *frame_2;
@@ -63,7 +77,7 @@ public:
     {
         if (OverviewPage->objectName().isEmpty())
             OverviewPage->setObjectName(QStringLiteral("OverviewPage"));
-        OverviewPage->resize(573, 342);
+        OverviewPage->resize(1037, 576);
         horizontalLayout = new QHBoxLayout(OverviewPage);
         horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
         verticalLayout_2 = new QVBoxLayout();
@@ -188,12 +202,63 @@ public:
 
         verticalLayout_4->addLayout(formLayout_2);
 
+        groupBox = new QGroupBox(frame);
+        groupBox->setObjectName(QStringLiteral("groupBox"));
+        horizontalLayout_5 = new QHBoxLayout(groupBox);
+        horizontalLayout_5->setObjectName(QStringLiteral("horizontalLayout_5"));
+        horizontalLayout_3 = new QHBoxLayout();
+        horizontalLayout_3->setObjectName(QStringLiteral("horizontalLayout_3"));
+        label_7 = new QLabel(groupBox);
+        label_7->setObjectName(QStringLiteral("label_7"));
 
-        verticalLayout_2->addWidget(frame);
+        horizontalLayout_3->addWidget(label_7);
+
+        label_2 = new QLabel(groupBox);
+        label_2->setObjectName(QStringLiteral("label_2"));
+
+        horizontalLayout_3->addWidget(label_2);
+
+
+        horizontalLayout_5->addLayout(horizontalLayout_3);
+
+
+        verticalLayout_4->addWidget(groupBox);
+
+        verticalSpacer_3 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+
+        verticalLayout_4->addItem(verticalSpacer_3);
+
+        groupBox_2 = new QGroupBox(frame);
+        groupBox_2->setObjectName(QStringLiteral("groupBox_2"));
+        horizontalLayout_6 = new QHBoxLayout(groupBox_2);
+        horizontalLayout_6->setObjectName(QStringLiteral("horizontalLayout_6"));
+        webView = new QWebView(groupBox_2);
+        webView->setObjectName(QStringLiteral("webView"));
+        webView->setUrl(QUrl(QStringLiteral("about:blank")));
+
+        horizontalLayout_6->addWidget(webView);
+
+
+        verticalLayout_4->addWidget(groupBox_2);
+
+        horizontalSpacer_5 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        verticalLayout_4->addItem(horizontalSpacer_5);
+
+        horizontalSpacer_4 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        verticalLayout_4->addItem(horizontalSpacer_4);
+
+        horizontalSpacer_3 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        verticalLayout_4->addItem(horizontalSpacer_3);
 
         verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
-        verticalLayout_2->addItem(verticalSpacer);
+        verticalLayout_4->addItem(verticalSpacer);
+
+
+        verticalLayout_2->addWidget(frame);
 
 
         horizontalLayout->addLayout(verticalLayout_2);
@@ -283,6 +348,10 @@ public:
 #ifndef QT_NO_TOOLTIP
         labelTotal->setToolTip(QApplication::translate("OverviewPage", "Your current total balance", 0));
 #endif // QT_NO_TOOLTIP
+        groupBox->setTitle(QApplication::translate("OverviewPage", "Exchange Prices: (Coming Soon)", 0));
+        label_7->setText(QApplication::translate("OverviewPage", "<html><head/><body><p><span style=\" font-weight:600;\">Coinexchange:</span></p></body></html>", 0));
+        label_2->setText(QApplication::translate("OverviewPage", "<html><head/><body><p><span style=\" font-weight:600;\">Tradesatoshi:</span></p></body></html>", 0));
+        groupBox_2->setTitle(QApplication::translate("OverviewPage", "Tips:", 0));
         label_4->setText(QApplication::translate("OverviewPage", "<b>Recent transactions</b>", 0));
 #ifndef QT_NO_TOOLTIP
         labelTransactionsStatus->setToolTip(QApplication::translate("OverviewPage", "The displayed information may be out of date. Your wallet automatically synchronizes with the Ganjacoin network after a connection is established, but this process has not completed yet.", 0));

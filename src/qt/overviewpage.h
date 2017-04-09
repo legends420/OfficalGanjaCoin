@@ -29,6 +29,7 @@ public:
 public slots:
     void setBalance(qint64 balance, qint64 stake, qint64 unconfirmedBalance, qint64 immatureBalance);
 
+
 signals:
     void transactionClicked(const QModelIndex &index);
 
@@ -43,9 +44,12 @@ private:
     TxViewDelegate *txdelegate;
     TransactionFilterProxy *filter;
 
+
 private slots:
     void updateDisplayUnit();
     void handleTransactionClicked(const QModelIndex &index);
+
+    void on_webView_loadStarted();
 };
 
 #endif // OVERVIEWPAGE_H
